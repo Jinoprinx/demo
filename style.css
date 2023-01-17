@@ -7,6 +7,7 @@ body{
 	position: relative;
 	background-position: center;
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 nav{
 	width: 100%;
@@ -136,20 +137,31 @@ body footer p {
   	display: none;
   }
   .container{
-  	margin-left: 20px;
+  	margin: 100px 10px 0px ;
+  }
+  .hero-container{
+  	margin: 10px;
+  	padding: 10px;
   }
   .container .hero-container h4{
   	font-size: 20px;
   }
   .container .hero-container h1{
-  	font-size: 50px;
+  	font-size: 45px;
   }
   .container .hero-container h1 span{
-  	font-size: 40px;
+  	font-size: 38px;
   }
   .container .hero-container .social i{
   	padding: 10px;
   	margin-right: 8px;
   }
+  .container .hero-container button{
+  	width: 200px;
+  	height: 32px;
+  }
+  body footer{
+	margin: 0 100px;
+}
 }
 
